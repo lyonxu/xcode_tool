@@ -324,6 +324,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Debug;
 		};
@@ -336,6 +337,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Release;
 		};
@@ -350,6 +352,7 @@
 				GCC_PREFIX_HEADER = "NSStringWrapper/NSStringWrapper-Prefix.pch";
 				INFOPLIST_FILE = "NSStringWrapperTests/NSStringWrapperTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -365,6 +368,7 @@
 				GCC_PREFIX_HEADER = "NSStringWrapper/NSStringWrapper-Prefix.pch";
 				INFOPLIST_FILE = "NSStringWrapperTests/NSStringWrapperTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -388,6 +392,7 @@
 				45E8A53514DCD5BB00D3FCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E8A53614DCD5BB00D3FCA4 /* Build configuration list for PBXNativeTarget "NSStringWrapperTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				45E8A53814DCD5BB00D3FCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
