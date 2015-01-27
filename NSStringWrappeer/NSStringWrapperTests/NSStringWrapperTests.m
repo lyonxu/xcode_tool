@@ -47,7 +47,7 @@
 - (void)testStartsWith {
     STAssertTrue([@"abcdef" startsWith:@"abc"], @"");
     STAssertTrue([@"aa" startsWith:@"aa"], @"");
-    STAssertFalse([@"aa" startsWith:@""], @"");
+    STAssertTrue([@"aa" startsWith:@""], @"");
     STAssertFalse([@"abc" startsWith:@"b"], @"");
     STAssertFalse([@"abc" startsWith:@"abcd"], @"");
 }
@@ -55,7 +55,7 @@
 - (void)testEndsWith {
     STAssertTrue([@"abcdef" endsWith:@"def"], @"");
     STAssertTrue([@"aa" endsWith:@"aa"], @"");
-    STAssertFalse([@"aa" endsWith:@""], @"");
+    STAssertTrue([@"aa" endsWith:@""], @"");
     STAssertFalse([@"abc" endsWith:@"b"], @"");
     STAssertFalse([@"abc" endsWith:@"dabc"], @"");
 }
